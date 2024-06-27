@@ -1,0 +1,16 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "serveapi"
+version = "0.1.0"
+requires-python = ">=3.8"
+dependencies = [
+	"requests>=0.32"
+]
+authors = [
+	{name="Laurence Liang"}
+]
+readme = "README.md"
+
