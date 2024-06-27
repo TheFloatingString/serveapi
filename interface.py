@@ -16,7 +16,3 @@ class ServeApi2():
         self.str_literal += name
         return ServeApi2(self.attr_name + '.' + name, depth_zero=False)
 
-if __name__ == '__main__':
-    s2 = ServeApi2('np')
-    resp = s2.linalg.norm([34353,23432,23413])
-    print(resp)
