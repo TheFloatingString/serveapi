@@ -1,4 +1,4 @@
-# servapi
+# ServeAPI
 
 An interface for minimal API calls. 
 
