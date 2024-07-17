@@ -1,9 +1,12 @@
 """
 Client program
 """
-from interface import ServeApi2
 
-s2 = ServeApi2('np')
-resp = s2.linalg.norm([34353,23432,23413])
-print(f'>> {resp}')
-print(f'>> {eval(resp)}')
+from serveapi import interface as itfc
+
+if __name__ == '__main__':
+    print('client')
+    np = itfc.ServeApi2('np')
+    print('client')
+    resp = np.linalg.norm([100,200,300])
+    print(resp)
